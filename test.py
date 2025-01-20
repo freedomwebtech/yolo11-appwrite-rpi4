@@ -12,9 +12,9 @@ from datetime import datetime
 ocr = PaddleOCR()
 
 client = Client()
-client.set_endpoint('https://cloud.appwrite.io/v1') # Your API Endpoint
-client.set_project('678df87a00219b30c15f') # Your project ID
-client.set_key('standard_875cfa0696fedf2880fb45665b6d580a83612889ce7e002c43d93878f166c36a631a3578cc9dfd989a1020dd60eb0bcb1062dc96fe01c4b77bf2695d756222b9adddbc1a1638b3f88ee34100585d1ae221976647dc47636fabab3ddeac5d50a57663bb7efcf4193ccb4e06ef688d3c5f60db879e4fae65f5848f552883a22dfa') # The user session to authenticate with
+client.set_endpoint('') # Your API Endpoint
+client.set_project('') # Your project ID
+client.set_key('') 
 
 
 
